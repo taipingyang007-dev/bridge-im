@@ -1,0 +1,28 @@
+# Build outputs
+/build/
+/bin/
+*.o
+
+# Runtime logs
+/logs/
+*.log
+
+# Environment secrets
+.env
+
+# Local editor/tooling
+.vscode/
+.idea/
+.cache/
+.deps/
+.codegraph/
+.DS_Store
+
+# Local agent/project context
+CLAUDE.md
+PROJECT_CONTEXT.md
+/data/
+/docs/internal/
+
+# Test binaries
+test/testjson/testjson
